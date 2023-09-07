@@ -5,4 +5,6 @@
 //  Created by Хасан Давронбеков on 07/09/23.
 //
 
-import Foundation
+enum AssetsColor: String {
+    case mainColor
+}

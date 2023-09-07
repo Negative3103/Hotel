@@ -5,4 +5,7 @@
 //  Created by Хасан Давронбеков on 07/09/23.
 //
 
-import Foundation
+import UIKit
+
+extension UIView: ReusableView { }
+

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct JSONData<T: Decodable>: Decodable {
+    let code: Int
+    let message: String
+    let language: String?
+    let meta: Meta?
+    
+    let data: T?
+}

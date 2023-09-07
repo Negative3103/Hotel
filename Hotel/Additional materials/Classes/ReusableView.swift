@@ -5,7 +5,8 @@
 //  Created by Хасан Давронбеков on 07/09/23.
 //
 
-import Foundation
+import UIKit
+
 protocol ReusableView: AnyObject {
     static var defaultReuseIdentifier: String { get }
 }
