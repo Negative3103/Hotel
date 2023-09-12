@@ -13,10 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().installBlurEffect()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.appColor(.mainColor)
-        window?.rootViewController = UINavigationController(rootViewController: LaunchScreenViewController())
+        window?.rootViewController = UINavigationController(rootViewController: HotelViewController())
         window?.makeKeyAndVisible()
         return true
     }

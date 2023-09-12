@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ComfortsCollectionViewCell" id="MCo-Vw-kNY" customClass="ComfortsCollectionViewCell" customModule="Hotel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="146" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eVI-3D-Uf3">
+                <rect key="frame" x="0.0" y="0.0" width="146" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh7-LZ-z12">
+                        <rect key="frame" x="10" y="5" width="126" height="38"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" name="gray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Yh7-LZ-z12" secondAttribute="trailing" constant="10" id="4X8-fR-HFJ"/>
+                    <constraint firstItem="Yh7-LZ-z12" firstAttribute="leading" secondItem="eVI-3D-Uf3" secondAttribute="leading" constant="10" id="R8u-LP-7En"/>
+                    <constraint firstItem="Yh7-LZ-z12" firstAttribute="top" secondItem="eVI-3D-Uf3" secondAttribute="top" constant="5" id="b4c-2b-uew"/>
+                    <constraint firstAttribute="bottom" secondItem="Yh7-LZ-z12" secondAttribute="bottom" constant="5" id="bPQ-IR-cCb"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" name="mainColor"/>
+            <size key="customSize" width="146" height="48"/>
+            <connections>
+                <outlet property="titleLabel" destination="Yh7-LZ-z12" id="9ei-e7-FiN"/>
+            </connections>
+            <point key="canvasLocation" x="91.603053435114504" y="-14.084507042253522"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="gray">
+            <color red="0.50980392156862742" green="0.52941176470588236" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainColor">
+            <color red="0.96470588235294119" green="0.96470588235294119" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

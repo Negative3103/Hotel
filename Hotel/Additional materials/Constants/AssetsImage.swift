@@ -7,4 +7,5 @@
 
 enum AssetsImage: String {
     case comforts
+    case arrowRight
 }

@@ -7,4 +7,6 @@
 
 enum AssetsColor: String {
     case mainColor
+    case white
+    case black
 }
